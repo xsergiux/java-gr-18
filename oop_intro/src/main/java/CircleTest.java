@@ -25,16 +25,14 @@ public class CircleTest {
 }       //urmatorul exercitiu
         private static void createArrayOfCircle () {
             Circle[] circleArray = new Circle[10];
-
             for (int i = 0; i <= circleArray.length - 1; i++) {
-                if (i % 2 == 0)
-                Circle circle = new Circle(i + 1, "blue");
+                if (i % 2 == 0) Circle circle = new Circle(i + 1, "blue");
                 circleArray[i] = circleEven;
             }else{
                 Circle circle0dd = new Circle(i + 1, "green");
-                circleArray[i] = circle0dd;
+                circleArray[i] =  circle0dd;
             }
-        }
+    }
     }
 }
 
